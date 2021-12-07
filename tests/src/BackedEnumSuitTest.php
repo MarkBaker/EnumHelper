@@ -20,7 +20,7 @@ class BackedEnumSuitTest extends TestCase
 
     public function testBackedEnumThrowsExceptionFromInvalidName()
     {
-        self::xpectException(\Exception::class);
+        self::expectException(\Exception::class);
         self::expectExceptionMessage('Undefined enum name');
 
         BackedEnumSuit::fromName('noTrumps');

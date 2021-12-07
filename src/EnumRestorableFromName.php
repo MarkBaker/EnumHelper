@@ -2,8 +2,10 @@
 
 namespace EnumHelper;
 
-trait EnumRestorableFromName {
-    public static function fromName(string $name) {
+trait EnumRestorableFromName
+{
+    public static function fromName(string $name)
+    {
         try {
             $reflector = new \ReflectionEnum(self::class);
             $enumReflector = $reflector->getCase($name);
