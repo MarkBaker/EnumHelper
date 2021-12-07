@@ -15,12 +15,12 @@
         <ini name="memory_limit" value="2048M"/>
     </php>
     <testsuite name="Complex Unit Test Suite">
-        <directory suffix="Test.php">./unitTests/classes</directory>
+        <directory suffix="Test.php">./tests/src</directory>
     </testsuite>
 
     <coverage includeUncoveredFiles="true" processUncoveredFiles="true">
         <include>
-            <directory suffix=".php">classes/src</directory>
+            <directory suffix=".php">src</directory>
         </include>
     </coverage>
 
