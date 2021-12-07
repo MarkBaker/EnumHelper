@@ -3,7 +3,7 @@
 namespace EnumHelper\Tests;
 
 use EnumHelper\TestData\EnumSuit;
-use EnumHelper\Tests\Data\NotAnEnum;
+use EnumHelper\TestData\NotAnEnum;
 use PHPUnit\Framework\TestCase;
 
 class EnumSuitTest extends TestCase
