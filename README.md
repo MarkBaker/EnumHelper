@@ -55,7 +55,7 @@ $name = $suit->name;      // Returns 'Diamonds'
 $newSuit = Suit::fromName($name);
 ```
 
-This could be useful if you wanted to store the name in a database entry for readability; then recreate the enum when you read the database record.
+This could be useful if you wanted to store the name in a database for readability; then recreate the enum in the model when you load the database record.
 
 This works with both backed and unbacked enums.
 
