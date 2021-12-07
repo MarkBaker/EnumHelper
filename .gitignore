@@ -1,0 +1,6 @@
+## IDE support
+/.idea
+
+## Don't commit the vendor directory nor the lock file (as this is a library).
+/vendor/
+composer.lock

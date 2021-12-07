@@ -5,7 +5,7 @@
 [![Latest Stable Version](https://img.shields.io/github/v/release/MarkBaker/EnumHelper)](https://packagist.org/packages/markbaker/enumhelper)
 [![License](https://img.shields.io/github/license/MarkBaker/EnumHelper)](https://packagist.org/packages/markbaker/enumhelper)
 
-This package provides a trait that allows you to create a PHP 8.1 enum from a string name.
+This package provides a trait that allows you to create a PHP 8.1 enum from a name string.
 
 ## Installation
 
@@ -55,7 +55,7 @@ $name = $suit->name;      // Returns 'Diamonds'
 $newSuit = Suit::fromName($name);
 ```
 
-This could be useful if you wanted to store the name in a database for readability; then recreate the enum in the model when you load the database record.
+This could be useful if you wanted to store the name in a database for readability (particularly appropriate for unbacked enums); then recreate the enum in the model when you load the database record.
 
 This works with both backed and unbacked enums.
 
