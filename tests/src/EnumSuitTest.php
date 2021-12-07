@@ -2,7 +2,7 @@
 
 namespace EnumHelper\Tests;
 
-use EnumHelper\Tests\Data\EnumSuit;
+use EnumHelper\TestData\EnumSuit;
 use EnumHelper\Tests\Data\NotAnEnum;
 use PHPUnit\Framework\TestCase;
 

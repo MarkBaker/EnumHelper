@@ -1,6 +1,6 @@
 <?php
 
-namespace EnumHelper\Tests\Data;
+namespace EnumHelper\TestData;
 
 use EnumHelper\EnumRestorableFromName;
 

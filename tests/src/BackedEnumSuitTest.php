@@ -2,7 +2,7 @@
 
 namespace EnumHelper\Tests;
 
-use EnumHelper\Tests\Data\BackedEnumSuit;
+use EnumHelper\TestData\BackedEnumSuit;
 use PHPUnit\Framework\TestCase;
 
 class BackedEnumSuitTest extends TestCase

@@ -26,7 +26,8 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "EnumHelper\\Tests\\": "tests"
+      "EnumHelper\\TestData\\": "tests/data",
+      "EnumHelper\\Tests\\": "tests/src"
     }
   },
   "scripts": {
