@@ -4,10 +4,10 @@ namespace EnumHelper;
 
 trait EnumRestorableFromName
 {
-    public static function fromName(string $name)
+    public static function fromName(string $name): self
     {
+        $reflector = new \ReflectionEnum(self::class);
         try {
-            $reflector = new \ReflectionEnum(self::class);
             $enumReflector = $reflector->getCase($name);
             return $enumReflector->getValue();
         } catch (\ReflectionException $e) {
