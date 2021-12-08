@@ -1,4 +1,4 @@
-# A trait that allows you to create an enum from a string name in PHP 8.1
+# A trait that allows you to create an enum from a name string in PHP 8.1
 
 [![Build Status](https://github.com/MarkBaker/EnumHelper/workflows/main/badge.svg)](https://github.com/MarkBaker/EnumHelper/actions)
 [![Total Downloads](https://img.shields.io/packagist/dt/markbaker/enumhelper)](https://packagist.org/packages/markbaker/enumhelper)
@@ -61,8 +61,8 @@ This works with both backed and unbacked enums.
 
 ## Changelog
 
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+Please see the [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+This librar is released under the MIT License (MIT). Please see [License File](LICENSE.md) for more information.
