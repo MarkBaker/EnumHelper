@@ -3,10 +3,11 @@
 namespace EnumHelper\TestData;
 
 use EnumHelper\EnumRestorableFromName;
+use EnumHelper\EnumValidatableCase;
 
 enum BackedEnumSuit: string
 {
-    use EnumRestorableFromName;
+    use EnumRestorableFromName, EnumValidatableCase;
 
     case Clubs = 'C';
     case Diamonds = 'D';

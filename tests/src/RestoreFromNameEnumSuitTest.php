@@ -29,8 +29,9 @@ class RestoreFromNameEnumSuitTest extends TestCase
 
     public function testFromNameThrowsExceptionIfNotEnum()
     {
+        $fqClassName = NotAnEnum::class;
         self::expectException(\Exception::class);
-        self::expectExceptionMessage('Undefined enum name');
+        self::expectExceptionMessage(sprintf('Class "%s" is not an enum', $fqClassName));
 
         NotAnEnum::fromName('Mark');
     }
