@@ -6,7 +6,7 @@ use EnumHelper\TestData\EnumSuit;
 use EnumHelper\TestData\NotAnEnum;
 use PHPUnit\Framework\TestCase;
 
-class EnumSuitTest extends TestCase
+class RestoreFromNameEnumSuitTest extends TestCase
 {
     /**
      * @dataProvider providerEnumSuit

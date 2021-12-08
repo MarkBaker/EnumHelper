@@ -5,7 +5,7 @@ namespace EnumHelper\Tests;
 use EnumHelper\TestData\BackedEnumSuit;
 use PHPUnit\Framework\TestCase;
 
-class BackedEnumSuitTest extends TestCase
+class RestoreFromNameBackedEnumSuitTest extends TestCase
 {
     /**
      * @dataProvider providerBackedEnumSuit
