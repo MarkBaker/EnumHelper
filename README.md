@@ -43,7 +43,7 @@ $value = $suit->value;      // Returns 'D'
 $newSuit = Suit::from($value);
 ```
 
-The `EnumHelper\EnumRestorableFromName` trait provided in this library adds a `fromName()` method to any enum where you want to create an enum from its name.
+The `EnumHelper\EnumRestorableFromName` trait provided in this library adds a `fromName()` method to any enum where you want to create an enum from its name, rather than from its value.
 
 ```php
 enum Suit: string
@@ -103,4 +103,4 @@ Please see the [CHANGELOG](CHANGELOG.md) for more information on what has change
 
 ## License
 
-This librar is released under the MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+This library is released under the MIT License (MIT). Please see [License File](LICENSE.md) for more information.
