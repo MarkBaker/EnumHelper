@@ -2,6 +2,10 @@
 
 All notable changes to `EnumHelper` will be documented in this file.
 
+## 1.0.2 - 2022-01-20
+
+- Added `CasesIndexedByName` trait, providing a `casesIndexedByName()` method to return an associative array of cases with the case name as the index, rather than an enumerated array that is returned by `cases()`.
+
 ## 1.0.1 - 2021-12-08
 
 - Added `EnumValidatableCase` trait, providing an `isValidCase()` method to validate a string value against the set of case names defined for an enum. 
