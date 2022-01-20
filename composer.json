@@ -31,8 +31,8 @@
     }
   },
   "scripts": {
-    "style": "phpcs --report-width=200 --standard=PSR2 --report=summary,full src/ tests/ -n",
-    "versions": "phpcs --report-width=200 --standard=PHPCompatibility --report=summary,full classes/src/ --runtime-set testVersion 8.1- -n"
+    "style": "phpcs --report-width=200 --standard=PSR2 --report=summary,full src/ tests/src/ -n",
+    "versions": "phpcs --report-width=200 --standard=PHPCompatibility --report=summary,full src/ --runtime-set testVersion 8.1- -n"
   },
   "config": {
     "sort-packages": true
